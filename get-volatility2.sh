@@ -9,6 +9,7 @@ sudo apt install python2
 sudo apt install python2-dev
 
 # download pip2 and install
+clear
 echo "Setting up 'Scripts' environment..."
 mkdir Scripts
 cd Scripts
@@ -30,4 +31,4 @@ echo "Setting up Volatility 2..."
 cd ~/
 git clone https://github.com/volatilityfoundation/volatility
 cd volatility
-sudo python setup.py install
+sudo python2 setup.py install
