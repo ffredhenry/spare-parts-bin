@@ -13,3 +13,6 @@ Work in-progress, intended as a login splash page for displaying failed login at
 ### volatility2install
 Automates the installation of the Volatility memory forensics tool and its prerequisites (*python2*, *python2-pip* and *python2-dev*).
 Currently, this tool is confirmed to work on Kali Linux and Linux Mint 20.x, with more to follow.
+
+### security-onion-setup
+Automates installation of Security Onion and its prerequisite packages on Ubuntu 20.04 desktop (server network interfaces more finicky)
