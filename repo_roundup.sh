@@ -34,7 +34,7 @@ traverse_directories() {
 }
 
 # Start traversal from the current directory
-traverse_directories "."
+traverse_directories $1
 
 echo "Script completed."
 
