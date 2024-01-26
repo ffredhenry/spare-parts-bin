@@ -4,9 +4,7 @@
 # DONT RUN AS ROOT but enter password when prompted
 
 # prereqs here
-sudo apt install curl
-
-sudo apt install ethtool
+sudo apt install curl ethtool
 
 # clone the repo
 git clone https://github.com/Security-Onion-Solutions/securityonion
