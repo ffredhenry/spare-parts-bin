@@ -1,17 +1,5 @@
 #!/bin/bash
 
-#echo $1 > $2 [FIXME]: use this logic to enabled configure and backup options
-
-#if [ $1 = "--backup" ]
-#then
-#	echo "backup flag selected"
-#elif [ $1 = "--configure" ]
-#then
-#	echo "config file selected"
-#else
-#	echo "please choose a valid option"
-#fi
-
 # check for sshd config backup and create one if none found
 if [ ! -e /etc/ssh/sshd_config.backup ]
 then
